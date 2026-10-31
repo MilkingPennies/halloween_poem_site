@@ -1,0 +1,85 @@
+/* Set basic page settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive container settings */
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 400px;
+    background-color: rgba(49, 4, 97, 0.6); /* 60% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* Styling for the image in the header */
+.header img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+main{
+    padding-bottom: 0%;
+}
+/* Text styles */
+h1 {
+    font-family: New Rocker;
+    color: whitesmoke;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+h3 {
+    font-family: New Rocker;
+    color: whitesmoke;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+p {
+    font-family: Underdog;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+footer {
+    color: white;
+    font-family: Underdog;
+    text-align: center;
+    margin-top: auto;
+    padding: 15px;
+    width: 100%;
+}
+/* Responsive behavior */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
